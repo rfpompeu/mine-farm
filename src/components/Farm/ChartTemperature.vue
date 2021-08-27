@@ -40,7 +40,7 @@ export default {
         {
           name: "Temoeratura",
           data: this.generateDayWiseTimeSeries(
-            new Date("11 Feb 2017 GMT").getTime(),
+            new Date("11 Feb 2021 GMT").getTime(),
             20,
             {
               min: 10,
@@ -49,9 +49,9 @@ export default {
           ),
         },
         {
-          name: "Temperatura na Celeiro",
+          name: "Temperatura no Celeiro",
           data: this.generateDayWiseTimeSeries(
-            new Date("11 Feb 2017 GMT").getTime(),
+            new Date("11 Feb 2021 GMT").getTime(),
             20,
             {
               min: 10,

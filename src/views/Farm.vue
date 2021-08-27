@@ -1,16 +1,25 @@
 <template>
   <v-container>
-    <chart-population :population="[1, 1, 2]" :years="[2, 3, 4,]" />
-    <ChartTemperature/>
+    <chart-population
+      :population="[5, 4, 2, 2, 3, 5, 6, 7, 12, 23]"
+      :years="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    />
+    <chart-temperature />
   </v-container>
 </template>
 <script>
 import ChartPopulation from "../components/Farm/ChartPopulation.vue";
 import ChartTemperature from "../components/Farm/ChartTemperature.vue";
+import axios from 'axios'
+
 export default {
   components: {
     ChartPopulation,
     ChartTemperature,
+  },
+  
+  created() {
+    this.getTemperatureApi();
   },
   data: function () {
     return {
@@ -31,6 +40,15 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    getTemperatureApi(){
+      axios
+      .get('')
+      .then(response => (
+        console.log(response)
+      ))
+    }
   },
 };
 </script>
