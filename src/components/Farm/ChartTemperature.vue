@@ -30,6 +30,7 @@ export default {
         baseval += 86400000;
         i++;
       }
+      console.log(series)
       return series;
     },
   },
@@ -40,8 +41,8 @@ export default {
         {
           name: "Temoeratura",
           data: this.generateDayWiseTimeSeries(
-            new Date("11 Feb 2021 GMT").getTime(),
-            20,
+            new Date(2021,8,30).getTime(),
+            5,
             {
               min: 10,
               max: 39,
@@ -51,8 +52,8 @@ export default {
         {
           name: "Temperatura no Celeiro",
           data: this.generateDayWiseTimeSeries(
-            new Date("11 Feb 2021 GMT").getTime(),
-            20,
+            new Date(2021,8,30).getTime(),
+            5,
             {
               min: 10,
               max: 45,
