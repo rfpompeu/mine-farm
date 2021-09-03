@@ -28,7 +28,7 @@ export default {
       },
       series: [
         {
-          name: "series-1",
+          name: "animais",
           data: this.population,
         },
       ],
