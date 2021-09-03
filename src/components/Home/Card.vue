@@ -41,7 +41,9 @@ export default {
         apple: "https://images.pexels.com/photos/5529540/pexels-photo-5529540.jpeg?cs=srgb&dl=pexels-zen-chung-5529540.jpg&fm=jpg",
         pig: "https://images.pexels.com/photos/45869/pig-domestic-pig-suckle-piglet-45869.jpeg?cs=srgb&dl=pexels-pixabay-45869.jpg",
         chicken: "https://images.pexels.com/photos/2134180/pexels-photo-2134180.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2134180.jpg",
-        coffe: "https://images.pexels.com/photos/7125465/pexels-photo-7125465.jpeg?cs=srgb&dl=pexels-michael-burrows-7125465.jpg&fm=jpg"
+        coffe: "https://images.pexels.com/photos/7125465/pexels-photo-7125465.jpeg?cs=srgb&dl=pexels-michael-burrows-7125465.jpg&fm=jpg",
+        carrot: "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        beetroot: "https://images.pexels.com/photos/5502850/pexels-photo-5502850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       };
       return images[name];
     },
